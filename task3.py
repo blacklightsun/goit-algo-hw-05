@@ -159,7 +159,6 @@ func_string_tuple = (
 
 for func_string in func_string_tuple:
     for func in func_tuple:
-        # -------------------------------------------------------------------------------------
         res = round(
             (
                 timeit.timeit(
